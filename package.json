@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "A simple command line amazon like application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajandorek/bamazon.git"
+  },
+  "author": "Alec Jandorek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajandorek/bamazon/issues"
+  },
+  "homepage": "https://github.com/ajandorek/bamazon#readme",
+  "dependencies": {
+    "mysql": "^2.13.0",
+    "prompt": "^1.0.0"
+  }
+}
