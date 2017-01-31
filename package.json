@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/ajandorek/bamazon#readme",
   "dependencies": {
+    "cliui": "^3.2.0",
+    "colors": "^1.1.2",
+    "inquirer": "^3.0.1",
     "mysql": "^2.13.0",
     "prompt": "^1.0.0"
   }
