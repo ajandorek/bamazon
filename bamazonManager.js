@@ -95,8 +95,6 @@ var managerView = function(){
                     }
                 ]).then(function(response){
                     var item = response.item;
-                    console.log(item);
-                    console.log(response.quantity);
                     connection.query('UPDATE products SET ? WHERE ?',
                     [
                         {stock_quantity: response.quantity},
